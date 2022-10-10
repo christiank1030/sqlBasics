@@ -1,11 +1,11 @@
 --1
 CREATE TABLE person (
-    id SERIAL PRIMARY KEY
-    person_name VARCHAR(30) NOT NULL
-    age INTEGER NOT NULL
-    height INTEGER NOT NULL
-    city VARCHAR(30) NOT NULL
-    favorite_color VARCHAR(30) NOT NULL
+    id SERIAL PRIMARY KEY,
+    person_name VARCHAR(30) NOT NULL,
+    age INTEGER NOT NULL,
+    height INTEGER NOT NULL,
+    city VARCHAR(30) NOT NULL,
+    favorite_color VARCHAR(30) NOT NULL,
 );
 
 --2
